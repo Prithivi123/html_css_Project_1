@@ -1,0 +1,65 @@
+/*Custom Styling codes here*/
+header{
+	/*background-color: #fb024c;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	/*padding: 30px 10%;*/
+	padding-top: 10px;
+}
+
+header img{
+	padding: 10px 0 0 13px;
+}
+
+*{
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway;
+	box-sizing: border-box;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding: 0px 40px;
+
+}
+
+.logo{
+	cursor: pointer;
+	margin-right: auto;
+}
+
+li, a, button{
+	/*font-weight: 500;*/
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover {
+	color: #fb024c;
+	transition: all 0.3s ease 0s;
+}
+
+nav ul li a{
+	transition: all 0.3s ease 0s;
+}
+
+
+header > button{
+	padding: 9px 25px;
+	background-color: #fb024c;
+	border-radius: 30px;
+	color: #FFF;
+	border: none;
+	margin-right: 50px;
+	cursor: pointer;
+	outline: none;
+}
+
+header > button:hover {
+	color: green;
+	background-color: #FFF;
+	transition: all 0.3s ease 0s;
+}
