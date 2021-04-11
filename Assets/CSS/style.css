@@ -6,6 +6,7 @@ header{
 	align-items: center;
 	/*padding: 30px 10%;*/
 	padding-top: 10px;
+	padding-bottom: 7px;
 }
 
 header img{
@@ -63,3 +64,49 @@ header > button:hover {
 	background-color: #FFF;
 	transition: all 0.3s ease 0s;
 }
+
+
+.wrapper {
+	/*background-image: */
+	background: url("../Image/digital-marketing-seo-google-1725340-e1595946227912(Cft2kRHTicI).jpg");
+	background-repeat: no-repeat;
+	/*width: 1499px;*/
+	/*height: 784px;*/
+
+ }
+
+main > button{
+	position: relative;
+	left: 43.3%;
+	top: 200px;
+}
+
+
+main > h1{
+	position: relative;
+	left: 190px;
+	/*font-size: 50px;*/
+	font-weight: bold;
+
+}
+
+.content > h1{
+	padding: 200px;	
+}
+
+
+.content > button{
+	padding: 9px 25px;
+	background-color: #fb024c;
+	border-radius: 30px;
+	color: #FFF;
+	border: none;
+	margin-right: 50px;
+	cursor: pointer;
+	outline: none;
+	/*align-content: center;*/
+}
+
+
+
+/*Content CSS*/
